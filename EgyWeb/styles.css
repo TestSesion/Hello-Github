@@ -1,0 +1,52 @@
+body {
+  background-color: #AFEEEE;
+  font-family: "Helvetica", sans-serif;
+  color: #800080;
+}
+h1 {
+  color: #FFF8DC;
+  font-family: "Times New Roman", serif;
+}
+h2 {
+  font-family: "Times New Roman", serif;
+}
+h3 {
+  font-family: "Brush Script MT", serif;
+  font-style: italic;
+}
+a {
+  color: #6600FF;
+}
+nav ul {
+  background-color: #FF3647;
+  border-style: solid;
+  border-color: #C71585;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FFEFD5;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #880055;
+}
+/* Add hover effects to the nav menu directly instead of with a class */
+nav ul li a:hover {
+  animation-name: glowPulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+img {
+  border-radius: 30px;
+  border: 2px solid white;
+}
+img:hover {
+  border: 2px dashed navy;
+}
